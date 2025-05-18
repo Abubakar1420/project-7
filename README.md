@@ -59,9 +59,25 @@ A simple real-time chat application was developed using Node.js, Express.js, and
 * User sessions and room-based chats
 * Lightweight server using Express.js
 
+### Files Structure
+
+- server/index.js – Node.js and Socket.io setup
+- public/index.html – Frontend interface
+- public/chat.js – Client-side WebSocket connection
+
 ### Scalability Demonstration
 
 * The application supports hundreds of simultaneous users exchanging messages with minimal delay.
 * Load testing with tools like Apache Benchmark confirmed consistent response times and low memory usage under heavy load.
 
+### Documentation and Instructions
+
+* install nodde.js
+* Install dependencies: npm install express socket.io 
+* Start the server: node server.js
+* Open multiple browser tabs at http://localhost:7000 to simulate concurrent users
+
+### Conclusion
+
+Node.js provides a compelling platform for building scalable, real-time, and performant web applications. Its architecture, combined with a rich ecosystem and strong community support, make it a go-to choice for modern developers. While there are limitations for CPU-heavy operations, thoughtful design and proper tools can mitigate most challenges. The practical component underscores its capability to handle concurrent connections efficiently, reinforcing its strengths in scalability.
 
